@@ -29,10 +29,14 @@ body{
     margin-top: -32px;
     margin-left: -50px;
 }
+.row:nth-child(even){
+    margin-left:1px
+}
 .hexagon{
     position:relative;
     width:100px;
     height:110px;
-    background: green;
+    background: #111;
+    margin:1px;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
